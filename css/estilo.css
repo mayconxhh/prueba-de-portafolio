@@ -1,0 +1,178 @@
+a {
+    color: white;
+}
+
+#avatar {
+    text-align: center;
+}
+
+#avatar img {
+    border: 5px solid rgb(118, 111, 131);
+    border-radius: 50%;
+    width: 200px;
+    display: inline-block;
+}
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(44, 61, 68);
+    padding: 0.6em 0 0.6em 0;
+    
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
+
+}
+
+footer p strong {
+    color: orangered;
+    font-style: italic;
+    
+}
+
+header {
+    background: #2C3D44;
+    padding:0.5em;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+header figure {
+    float: left;
+    display: inline-block;
+}
+
+header #logo {
+    margin: 0;
+    
+}
+
+header #logo img {
+    border-radius: 50%;
+    width: 42px;
+    border: 3px solid rgba(0, 255, 245, 0.33);
+}
+
+header #nombre {
+   
+    color: white;
+    display: inline-block;
+    float: left;
+    font-family: 'Times New Roman', cursive;
+    font-size: 30px;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    
+}
+
+nav {
+    margin-right: 1em;
+    margin-top: 0.7em;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    
+    
+}
+    
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    
+    
+}
+
+nav ul li a {
+    color: rgb(76, 166, 166);
+    font-family: 'Times New Roman', cursive;
+    font-size: 23px;    
+    text-decoration: none;
+    
+}
+
+nav ul li .separacion {
+    border-right: 2px solid rgb(92, 111, 113);
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+}
+    
+section  {
+    background: url(../image/fondo.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+section h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+section h1 #apelativo {
+    font-size: 15px;
+    font-style: italic;
+    color: orangered;
+}
+section p {
+    color: white;
+    margin: 1em 3em 3em 3em;
+    text-align: center;
+    background: url(".../image/fondo") no-repeat;
+}
+
+section #icons  {
+    display: inline-block;
+    float: right;
+    margin: 1em 1em 0 0;
+    
+}
+
+section .facebook img {
+  display: block;
+  margin-bottom: 1em;
+  width: 40px;
+    border-radius: 10%;
+}
+section figure a {
+    text-align: right;
+}
+
+section .twitter {
+    
+}
+
+section .twitter img {
+    width: 40px;
+    
+}
+
+main {
+    padding: 1.5em 1.5em 1.5em 1.5em;
+}
+
+main .titulo {
+    text-align: center;
+    font-family: 'Times New Roman', cursive;
+    color: rgb(111, 111, 111);
+}
+
+main .texto {
+    
+}
+
+.video {
+    
+}
